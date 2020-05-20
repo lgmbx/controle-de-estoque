@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Controle de estoque")]
+[assembly: AssemblyTitle("controle-de-estoque")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Controle de estoque")]
+[assembly: AssemblyProduct("controle-de-estoque")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("162cb3ec-a920-4a2d-9db0-9786c730ceba")]
+[assembly: Guid("e8074708-bd0a-4e91-b756-18e6109b10ea")]
 
 // Version information for an assembly consists of the following four values:
 //

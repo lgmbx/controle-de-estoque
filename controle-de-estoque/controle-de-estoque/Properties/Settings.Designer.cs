@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Controle_de_estoque.Properties {
+namespace controle_de_estoque.Properties {
 
 
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

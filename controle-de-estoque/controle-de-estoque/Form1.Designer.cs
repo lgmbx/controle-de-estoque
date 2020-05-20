@@ -1,4 +1,4 @@
-﻿namespace Controle_de_estoque {
+﻿namespace controle_de_estoque {
     partial class Form1 {
         /// <summary>
         /// Required designer variable.

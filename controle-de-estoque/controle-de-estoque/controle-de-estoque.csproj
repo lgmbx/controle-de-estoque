@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\FormProdutos.cs">
+    <Compile Include="Forms\FomProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormProdutos.Designer.cs">
-      <DependentUpon>FormProdutos.cs</DependentUpon>
+    <Compile Include="Forms\FomProdutos.Designer.cs">
+      <DependentUpon>FomProdutos.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormRelatorio.cs">
       <SubType>Form</SubType>
@@ -66,8 +67,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\FormProdutos.resx">
-      <DependentUpon>FormProdutos.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FomProdutos.resx">
+      <DependentUpon>FomProdutos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormRelatorio.resx">
       <DependentUpon>FormRelatorio.cs</DependentUpon>
@@ -107,6 +108,12 @@
     <Content Include="img\shopping-list.png" />
     <Content Include="img\value %281%29.png" />
     <Content Include="img\value.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\estoque.DAL\estoque.DAL.csproj">
+      <Project>{e655495b-b544-4e4a-9149-546913783d87}</Project>
+      <Name>estoque.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

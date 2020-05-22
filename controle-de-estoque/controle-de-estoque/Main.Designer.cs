@@ -31,7 +31,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.PanelTop = new System.Windows.Forms.Panel();
             this.LblTitle = new System.Windows.Forms.Label();
-            this.DesktopPanel = new System.Windows.Forms.Panel();
+            this.PanelDesktop = new System.Windows.Forms.Panel();
             this.PanelMenu.SuspendLayout();
             this.PanelTop.SuspendLayout();
             this.SuspendLayout();
@@ -156,21 +156,21 @@
             this.LblTitle.TabIndex = 0;
             this.LblTitle.Text = "TITLE";
             // 
-            // DesktopPanel
+            // PanelDesktop
             // 
-            this.DesktopPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.DesktopPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DesktopPanel.Location = new System.Drawing.Point(205, 83);
-            this.DesktopPanel.Name = "DesktopPanel";
-            this.DesktopPanel.Size = new System.Drawing.Size(879, 518);
-            this.DesktopPanel.TabIndex = 2;
+            this.PanelDesktop.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.PanelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelDesktop.Location = new System.Drawing.Point(205, 83);
+            this.PanelDesktop.Name = "PanelDesktop";
+            this.PanelDesktop.Size = new System.Drawing.Size(879, 518);
+            this.PanelDesktop.TabIndex = 2;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 601);
-            this.Controls.Add(this.DesktopPanel);
+            this.Controls.Add(this.PanelDesktop);
             this.Controls.Add(this.PanelTop);
             this.Controls.Add(this.PanelMenu);
             this.MinimumSize = new System.Drawing.Size(1100, 640);
@@ -192,7 +192,7 @@
         private System.Windows.Forms.Button BtnRelatorio;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Panel DesktopPanel;
+        private System.Windows.Forms.Panel PanelDesktop;
         private System.Windows.Forms.Label LblTitle;
     }
 }

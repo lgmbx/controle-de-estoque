@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace controle_de_estoque.Forms {
-    public partial class FormProdutos : Form {
-        public FormProdutos() {
+    public partial class FomProdutos : Form {
+        public FomProdutos() {
             InitializeComponent();
         }
     }

@@ -27,8 +27,8 @@ namespace controle_de_estoque {
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            this.DesktopPanel.Controls.Add(childForm);
-            this.DesktopPanel.Tag = childForm;
+            this.PanelDesktop.Controls.Add(childForm);
+            this.PanelDesktop.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
             LblTitle.Text = childForm.Text; 
@@ -37,7 +37,7 @@ namespace controle_de_estoque {
         }
 
         private void BtnProdutos_Click(object sender, EventArgs e) {
-            openChildForm(new Forms.FormProdutos(), sender);
+            openChildForm(new Forms.FomProdutos(), sender);
         }
 
         private void BtnRelatorio_Click(object sender, EventArgs e) {
